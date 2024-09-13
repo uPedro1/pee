@@ -7,25 +7,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <title>O Mistério do Cristal Perdido</title>
+    <title>O Segredo da Caverna Encantada</title>
 </head>
 <body>
     <main>
         <div class="passo ativo" id="passo-0">
-            <img src="cenario-passo0.png" alt="">
-            <p>Durante uma tarde chuvosa, encontrei um velho mapa escondido dentro de um livro antigo na biblioteca da minha avó. O mapa indica a localização de um cristal mágico perdido, que dizem ter poderes incríveis. Decidi que encontrá-lo seria a minha próxima aventura!</p>
-            <button class="btn-proximo" data-proximo="1">Siga para o deserto</button>
-            <button class="btn-proximo" data-proximo="2">Vá para a floresta tropical</button>
+            <img src="encontro-pergaminho.png" alt="Clara encontra um antigo pergaminho no sótão da casa de sua avó">
+            <p>Durante uma tarde tranquila em uma pequena vila, Clara, uma jovem exploradora, encontra um antigo pergaminho escondido em um baú no sótão da casa de sua avó. O pergaminho revela a localização de uma caverna secreta nas montanhas próximas. O mapa indica que dentro da caverna há um artefato mágico que promete realizar um desejo. Clara decide que sua próxima grande aventura será encontrar essa caverna e descobrir o segredo do artefato.</p>
+            <button class="btn-proximo" data-proximo="1" aria-label="Siga para a caverna">Siga para a caverna</button>
+            <button class="btn-proximo" data-proximo="2" aria-label="Explorar a vila">Explorar a vila</button>
         </div>
         <div class="passo" id="passo-1">
-            <p>No deserto, você começa sua busca pelo cristal em uma antiga ruína que aparece no mapa. O sol está forte e você deve decidir como prosseguir.</p>
-            <button class="btn-proximo" data-proximo="3">Explorar as cavernas</button>
-            <button class="btn-proximo" data-proximo="4">Retornar ao acampamento</button>
+            <img src="entrada-caverna.png" alt="Clara se aproxima da entrada da caverna secreta nas montanhas">
+            <p>Clara, agora equipada com uma lanterna e um mapa, se aproxima da entrada da caverna oculta nas montanhas. A entrada da caverna é parcialmente coberta por vegetação densa, e uma aura mágica parece emanar dela.</p>
+            <button class="btn-proximo" data-proximo="3" aria-label="Entrar na caverna">Entrar na caverna</button>
+            <button class="btn-proximo" data-proximo="4" aria-label="Voltar para a vila">Voltar para a vila</button>
         </div>
         <div class="passo" id="passo-2">
-            <p>Na floresta tropical, o mapa sugere que o cristal está escondido em um templo antigo, camuflado entre a vegetação densa. Onde você começa a sua busca?</p>
-            <button class="btn-proximo" data-proximo="5">Investigar a cachoeira</button>
-            <button class="btn-proximo" data-proximo="6">Explorar as ruínas do templo</button>
+            <img src="artefato-magico.png" alt="Clara encontra o artefato mágico dentro da caverna">
+            <p>Dentro da caverna, Clara encontra um altar iluminado por uma luz mística. Em cima do altar está o artefato mágico, uma relíquia antiga envolta em uma aura brilhante. A caverna está cheia de inscrições antigas e pedras preciosas que refletem a luz do artefato.</p>
+            <button class="btn-proximo" data-proximo="5" aria-label="Desvendar o segredo do artefato">Desvendar o segredo do artefato</button>
+            <button class="btn-proximo" data-proximo="6" aria-label="Sair da caverna">Sair da caverna</button>
         </div>
     </main>
     <script src="script.js"></script>
